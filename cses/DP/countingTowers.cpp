@@ -29,11 +29,11 @@ int main(){
     }
 
     int t;
-    cin>>t;
+    cin>>t; 
 
     while(t--){
         int n;
         cin>>n;
         cout<<add(dp1[n],dp2[n])<<"\n";
     }
-}
+}   
